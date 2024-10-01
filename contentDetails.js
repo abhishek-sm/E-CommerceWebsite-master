@@ -1,6 +1,6 @@
 console.clear()
 
-let id = location.search.split('?')[1]
+let id = new URLSearchParams(window.location.search).get('id') || ''
 console.log(id)
 
 if(document.cookie.indexOf(',counter=')>=0)
