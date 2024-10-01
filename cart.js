@@ -135,7 +135,7 @@ httpRequest.onreadystatechange = function()
         }
 }
 
-httpRequest.open('GET', 'https://5d76bf96515d1a0014085cf9.mockapi.io/product', true)
+httpRequest.open('GET', 'https://66fbba9f8583ac93b40cf38f.mockapi.io/hairoil/v1/product/', true)
 httpRequest.send()
 
 
