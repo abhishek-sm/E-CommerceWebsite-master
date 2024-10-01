@@ -2,13 +2,14 @@ body
 {
     margin: 0;
     font-family: 'Lato', sans-serif;
+    background-color:#050505;
 }
 
 #containerFooter
 {
     width: 100%;
-    background-color: rgb(29, 29, 29);
-    color: white;
+    background-color:#050505;
+    color: #F2DAC2;
     letter-spacing: 1px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -33,15 +34,15 @@ body
     margin: auto;
     padding: 20px 0;
     text-align: center;
-    background-color: rgb(29, 29, 29);
-    color: white;
+    background-color:#050505;
+    color:#F2DAC2;
     font-size: 11px;
     letter-spacing: 1px;
 }
 
 #credit a
 {
-    color: white;
+    color:#F2DAC2;
     text-decoration: none;
     position: relative;
 }
