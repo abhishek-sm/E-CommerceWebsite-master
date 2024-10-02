@@ -11,66 +11,33 @@
     <script src="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
-    <style>
-        body
-        {
-            margin: 0;
-        }
-        #containerSlider
-        {
-            margin: auto;
-            width: 90%;
-            text-align: center;
-            padding-top: 100px;
-            box-sizing: border-box;
-        }
-        #containerSlider img
-        {
-            width: 100%;
-            height: 140%;
-            text-align: center;
-            align-content: center;
-        }
-        @media(max-width: 732px)
-        {
-            #containerSlider img
-            {
-                height: 12em;
-            }
-        }
-        @media(max-width: 500px)
-        {
-            #containerSlider img
-            {
-                height: 10em;
-            }
-        }
-    </style>
-
+    <link rel="stylesheet" href="css/slider.css">
 </head>
 <body>
-    <section>
-            <div id="containerSlider">
-                <div id="slidingImage"> <img src="img/img1.png" alt="image1"> </div>
-                <div id="slidingImage"> <img src="img/img2.png" alt="image2"> </div>
-                <div id="slidingImage"> <img src="img/img3.png" alt="image3"> </div>
-                <div id="slidingImage"> <img src="img/img4.png" alt="image4"> </div>
+    <!-- Replace Slider with Hero Section -->
+    <section class="hero">
+        <div class="container text-left">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="hero-title">HEMAADRI.</h1>
+                </div>
             </div>
+            <div class="row mt-4">
+                <div class="col-12">
+                    <p class="oil-description">
+                        Discover the purity of nature with our 100% natural oil, extracted from the finest ingredients.
+                        It's designed to nourish your skin and provide a healthy glow without any harmful chemicals.
+                        Embrace the power of nature with each drop.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <!-- <div class="col-12">
+                    <a href="#" class="btn btn-primary btn-lg buy-now">Buy Now</a>
+                </div> -->
+            </div>
+        </div>
     </section>
 </body>
-    <!-- <script src=“https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js”></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-    <script>
-        $(document).ready(function()
-        {
-        $('#containerSlider').slick({
-            dots: true,
-            infinite: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 2000,
-            });
-        });
-    </script>
 </html>
