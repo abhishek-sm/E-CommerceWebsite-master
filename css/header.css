@@ -1,6 +1,10 @@
 body
 {
     margin: 0;
+    font-family: 'Lato', sans-serif;
+        background:#050505
+        /* linear-gradient(rgba(35, 34, 34, 0.5), rgba(0,0,0,.5)),
+        url('noise.svg'); */
 }
 #badge
 {

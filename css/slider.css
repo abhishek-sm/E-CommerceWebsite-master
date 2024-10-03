@@ -13,16 +13,16 @@
 }
 
 .hero-title {
-    font-size: 9vw; /* Responsive font size based on viewport width */
+    font-size: 8vw; /* Responsive font size based on viewport width */
     color:#F2DAC2;
     margin: 0;
     white-space: nowrap; /* Prevents text from wrapping */
-    overflow: hidden; /* Hides overflow text */
+    /* overflow: hidden; Hides overflow text */
     text-overflow: ellipsis; /* Adds ellipsis if text overflows */
     padding-left: 22px;
 }
 .oil-description {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: #977656;
     max-width: 600px;
     padding: 10px 30px;
