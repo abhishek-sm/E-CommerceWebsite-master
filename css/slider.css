@@ -9,6 +9,7 @@
     justify-content: flex-start;
     flex-direction: left;
     align-items: center;
+    padding-top: 60px; /* Add padding to create space between navbar and the image */
 }
 
 .hero-title {
@@ -36,3 +37,23 @@
     
 }
 
+@media (max-width: 768px) {
+    .hero {
+            background-size: cover;
+            min-height: 50vh;
+        }
+    
+    .hero-title {
+            font-size: 8vw; /* Increase size for mobile view */
+            padding: 8px 20px;
+        }
+    .oil-description {
+        font-size: 1rem;
+        padding: 8px 20px;
+    }
+
+    .buy-now {
+        font-size: 1rem;
+        padding: 8px 20px;
+    }
+}
